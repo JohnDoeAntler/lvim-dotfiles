@@ -2,6 +2,7 @@
 lvim.colorscheme = "gruvbox-material"
 -- palatte: [hard, medium, soft]
 vim.cmd("let g:gruvbox_material_background = 'soft'")
+vim.cmd("set colorcolumn=80")
 -- status bar colorscheme
 lvim.builtin.lualine.options.theme = "gruvbox"
 -- to disable icons and use a minimalist setup, uncomment the following
